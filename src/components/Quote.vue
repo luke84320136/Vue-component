@@ -1,12 +1,19 @@
 <template>
   <div>
-    <slot></slot>  
+    <div class="title">
+      <slot name="title"></slot>
+      <span style="color: #ccc"><slot name="subtitle">副標題</slot></span>
+    </div>
+    <hr>
+    <div>
+      <slot name="content"></slot>
+    </div> 
   </div>
 </template>
 
 <script>
-export default{
-}
+  export default {
+  }
 </script>
 
 <style scoped>
@@ -16,5 +23,13 @@ export default{
     padding: 30px;
     margin: 30px auto;
     text-align: center;
+  }
+
+  h1 {
+		color:red;
+	}
+
+  .title {
+    font-style: italic;
   }
 </style>
