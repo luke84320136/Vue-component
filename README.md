@@ -1,8 +1,10 @@
-# vue-cli
+# Vue-component
+- Dynamic component
+![image](https://github.com/luke84320136/Vue-component/blob/master/destroyed.gif)
 
 > A Vue.js project
 
-## Build Setup
+## 安裝&使用
 
 ``` bash
 # install dependencies
