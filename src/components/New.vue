@@ -14,7 +14,13 @@
       }
     },
     destroyed() {
-      console.log('Destrouyed')
+      console.log('destroyed')
+    },
+    deactivated() {
+      console.log('Deactivated')
+    },
+    activated() {
+      console.log('Activated')
     }
   }
 </script>
